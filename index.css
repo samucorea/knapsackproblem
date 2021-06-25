@@ -1,0 +1,44 @@
+input{
+    border: 1px solid black;
+    text-align:right;
+}
+input#maxWeightInput{
+    width:60px;
+}
+
+.app{
+    display: flex;
+}
+
+.itemsToolbar {
+    height: 500px;
+    border: 1px solid black;
+    padding: 20px;
+    width:100%;
+}
+
+.inputMochila {
+    position:absolute;
+    bottom:120px;
+    left:41%;
+    
+ 
+
+}
+
+.itemsList{
+    width: 100%;
+}
+
+.img{
+    height: 470px;
+    position:relative;
+}
+
+
+
+ul > li
+{
+    margin: 1em;
+}
+

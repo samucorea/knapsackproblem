@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="build/styles.css">
+    <link rel="stylesheet" href="index.css">
+</head>
+
+<body>
+    <div class="app m-3">
+        <div class="inputs">
+            <div class="itemsToolbar overflow-y-auto">
+                <h1 class="text-2xl">Inserte items:</h1>
+                <span class="text-xl">Peso:</span> <input class="leading-relaxed text-xl" id="weight" type="number">
+                <span class="text-xl">Costo:</span> <input class="leading-relaxed text-xl" ID="cost" type="number">
+                <button id="addItem" class="text-xl text-white p-2 bg-red-500 rounded-md">Insertar</button>
+
+                <ul class="itemsList flex  flex-wrap">
+
+                </ul>
+
+
+            </div>
+
+            <div class="flex">
+                <div>
+                    <button id="calcularBtn" class="text-xl mr-2 p-2 bg-red-500 text-white rounded-md">Calcular</button>
+                </div>
+                <div class="text-xl"> Ganancia máxima: <span class="font-bold" id="maxValue"></span>
+                </div>
+            </div>
+
+
+        </div>
+        <div class="img">
+            <div class="inputMochila">
+                <span class="text-xl font-bold">PESO:</span> <input class="leading-relaxed text-xl" id="maxWeightInput"
+                    type="number"> kg
+            </div>
+            <img src="knapsack.jpg" />
+        </div>
+
+
+    </div>
+
+
+
+    <script type="module" src="./knapsack.js"></script>
+    <script type="module" src="./index.js"></script>
+</body>
+
+</html>
