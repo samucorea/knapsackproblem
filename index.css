@@ -6,13 +6,10 @@ input#maxWeightInput{
     width:60px;
 }
 
-.app{
-    display: flex;
-}
 
 .itemsToolbar {
-    height: 500px;
-    border: 1px solid black;
+    /* height: 500px; */
+    /* border: 1px solid black; */
     padding: 20px;
     width:100%;
 }
@@ -27,7 +24,9 @@ input#maxWeightInput{
 }
 
 .itemsList{
-    width: 100%;
+    margin-top: 2em;
+    width:700px;
+    border: 1px solid black;
 }
 
 .img{

@@ -59,6 +59,7 @@ function calculateKnap() {
     knap.selectedItems.forEach(item => {
         const index = weigths.indexOf(item);
 
+
         items[index].style.backgroundColor = "red";
         items[index].style.color = 'white';
     })
